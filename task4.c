@@ -7,11 +7,11 @@ scanf("%d",&membershipType);
 printf("Enter time slot (1-Morning,2-Evening)");
 scanf("%f",&slot);
 switch(membershipType){
-    case1:fee=2000;break;  
+    case 1:fee=2000;break;  
 
-    case2:fee=3500;break;
+    case 2:fee=3500;break;
 
-    case3:fee=2500;break;
+    case 3:fee=2500;break;
     default: printf("Invalid membership type! \n"); 
 
 } if(slot==1){
